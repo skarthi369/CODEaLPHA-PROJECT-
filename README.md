@@ -24,3 +24,47 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, Pingouin, Statsmodels, Google Colab.
 ## Outcome
 
 The project aims to determine whether the test campaign is more effective than the control campaign based on the chosen KPIs. It provides data-driven insights for improving marketing strategies and maximizing return on investment.
+
+
+project  2
+
+# Boston Housing Price Prediction
+
+This project uses a simple linear regression model to predict housing prices in Boston based on various features.
+
+## Dataset
+
+The dataset used in this project is the Boston Housing dataset, which is a popular dataset for regression tasks. It contains information about various features of houses in Boston, such as the average number of rooms, crime rate, and proximity to employment centers.
+
+## Model
+
+A simple linear regression model is used to predict the median value of owner-occupied homes (MEDV) based on the other features in the dataset. The model is trained using the training set and evaluated using the testing set.
+
+## Evaluation
+
+The model's performance is evaluated using the mean squared error (MSE) and the R-squared value. The MSE measures the average squared difference between the actual and predicted values, while the R-squared value measures the proportion of variance in the target variable that is explained by the model.
+
+## Usage
+
+To run this project, you will need to have Python 3 installed along with the following libraries:
+
+* pandas
+* numpy
+* matplotlib
+* scikit-learn
+
+You can install these libraries using pip:
+
+Once you have installed the necessary libraries, you can run the code in the notebook to train and evaluate the model.
+
+## Results
+
+The model achieves an MSE of `0.29` and an R-squared value of `0.71`. This indicates that the model is able to explain a significant portion of the variance in the target variable.
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have any suggestions for improvement, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
