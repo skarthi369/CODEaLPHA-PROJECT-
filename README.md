@@ -68,3 +68,61 @@ Contributions to this project are welcome. If you find any issues or have any su
 ## License
 
 This project is licensed under the MIT License.
+
+
+
+
+
+
+
+project 3
+
+
+# Titanic Survival Prediction
+
+This project analyzes the Titanic dataset to explore factors associated with passenger survival and potentially predict survival outcomes.
+
+## Dataset
+
+The project uses the Titanic dataset, a popular dataset for data science and machine learning. It contains information about passengers on the Titanic, including demographics, ticket details, and survival status.
+
+## Data Cleaning and Preprocessing
+
+The dataset is preprocessed to handle missing values and prepare it for analysis. The following steps are taken:
+
+1. **Missing Values:**
+    * **Age:** Missing values in the 'Age' column are imputed with the median age of passengers.
+    * **Cabin:** A new feature 'Has_Cabin' is created to indicate whether a passenger had a cabin assigned. The original 'Cabin' column is then dropped.
+    * **Embarked:** Missing values in the 'Embarked' column are filled with the most frequent value (mode).
+
+## Exploratory Data Analysis
+
+The project involves exploratory data analysis (EDA) to gain insights into the dataset and identify potential relationships between variables and survival. Techniques such as data visualization and statistical summaries are used to explore the data.
+
+## Further Analysis
+
+This project can be extended to include more in-depth analysis, such as:
+
+* **Feature Engineering:** Creating new features from existing ones to improve model performance.
+* **Model Building:** Training machine learning models (e.g., logistic regression, decision trees) to predict survival outcomes.
+* **Model Evaluation:** Evaluating the performance of the models using appropriate metrics.
+
+## Usage
+
+To run this project, you will need to have Python 3 installed along with the following libraries:
+
+* pandas
+* numpy
+* matplotlib
+* scikit-learn
+
+You can install these libraries using pip:
+
+## Contributing
+
+Contributions to this project are welcome. If you find any issues or have any suggestions for improvement, please feel free to open an issue or submit a pull request.
+
+## License
+
+This project is licensed under the MIT License.
+
